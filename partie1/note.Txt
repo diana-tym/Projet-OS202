@@ -1,0 +1,31 @@
+export OMP_NUM_THREADS=1
+Temps total de la simulation : 959 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 103.316 microsecondes
+Temps moyen pour l'affichage : 1574.56 microsecondes
+glegros66@HP-Envy:~/STIC/OS202/src2/src$ 
+
+export OMP_NUM_THREADS=2
+Temps total de la simulation : 943 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 191.909 microsecondes
+Temps moyen pour l'affichage : 1460.3 microsecondes
+
+export OMP_NUM_THREADS=4
+Temps total de la simulation : 894 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 195.352 microsecondes
+Temps moyen pour l'affichage : 1369.05 microsecondes
+
+export OMP_NUM_THREADS=6
+Temps total de la simulation : 837 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 361.533 microsecondes
+Temps moyen pour l'affichage : 1107.66 microsecondes
+
+export OMP_NUM_THREADS=8
+Temps total de la simulation : 953 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 680.83 microsecondes
+Temps moyen pour l'affichage : 990.679 microsecondes
+
+export OMP_NUM_THREADS=16
+Temps total de la simulation : 1823 millisecondes
+Temps moyen pour la mise a jour du modele (pas de temps) : 1889.6 microsecondes
+Temps moyen pour l'affichage : 1327.66 microsecondes
+
